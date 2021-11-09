@@ -7,6 +7,6 @@ import { Book } from '../book-list/books.model';
   styleUrls: ['./book-collection.component.css'],
 })
 export class BookCollectionComponent {
-  @Input() books:any = [];
+@Input() books:any = [];
   @Output() remove = new EventEmitter<string>();
 }
